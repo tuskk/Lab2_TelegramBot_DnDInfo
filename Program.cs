@@ -17,7 +17,7 @@ namespace DnDTelegramBot
 
         static async Task Main(string[] args)
         {
-            string botToken = "6703346803:AAE5ZAZxZKmlG1ElmrHkyBwNf7actiIvikg";
+            string botToken = "BOT TOKEN";
             botClient = new TelegramBotClient(botToken);
 
             var me = await botClient.GetMeAsync();
